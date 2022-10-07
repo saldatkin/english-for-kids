@@ -31,9 +31,9 @@ export function createMainLayout() {
   header.append(headerContainer);
   main.append(mainContainer);
 
-  navBurger = document.createElement('div');
-  headerTitle = document.createElement('div');
-  playToggle = document.createElement('div');
+  navBurger = document.createElement('button');
+  headerTitle = document.createElement('h1');
+  playToggle = document.createElement('button');
   navBurger.className = 'nav-burger';
   headerTitle.classList.add('header-title');
   playToggle.classList.add('play-toggle');
@@ -51,8 +51,8 @@ export function createMainLayout() {
 
   headerTitle.innerHTML = 'English for Kids';
 
-  trainCaption = document.createElement('div');
-  playCaption = document.createElement('div');
+  trainCaption = document.createElement('span');
+  playCaption = document.createElement('span');
   trainCaption.classList.add('play-toggle-caption', 'train');
   playCaption.classList.add('play-toggle-caption', 'play', 'hidden');
 

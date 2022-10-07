@@ -4,35 +4,35 @@ export const sidebar = ['menu', 'actions', 'animals',
 export const menu = [
   {
     word: 'actions',
-    img: '../assets/img/menu/actions.png'
-  },
+    img: '../assets/img/menu/actions.png',
+  }, 
   {
     word: 'animals',
-    img: '../assets/img/menu/animals.png'
-  },
+    img: '../assets/img/menu/animals.png',
+  }, 
   {
     word: 'animals2',
-    img: '../assets/img/menu/animals2.png'
-  },
+    img: '../assets/img/menu/animals2.png',
+  }, 
   {
     word: 'clothes',
-    img: '../assets/img/menu/clothes.jpg'
-  },
+    img: '../assets/img/menu/clothes.png',
+  }, 
   {
     word: 'digits',
-    img: '../assets/img/menu/digits.jpeg'
-  },
+    img: '../assets/img/menu/digits.png',
+  }, 
   {
     word: 'food',
-    img: '../assets/img/menu/food.jpg'
-  },
+    img: '../assets/img/menu/food.png',
+  }, 
   {
     word: 'fruits',
-    img: '../assets/img/menu/fruits.png'
-  },
+    img: '../assets/img/menu/fruits.png',
+  }, 
   {
     word: 'nature',
-    img: '../assets/img/menu/nature.png'
+    img: '../assets/img/menu/nature.png',
   }
 ];
 
@@ -102,136 +102,136 @@ export const actions = [
     mistakes: 0
   }
 ];
-export const animals = [
+export const animals = [ 
   {
     word: 'cat',
     translation: 'кот',
-    img: '../assets/img/animals/cat.jpg',
+    img: '../assets/img/animals/cat.png',
     audio: '../assets/audio/cat.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'chicken',
     translation: 'курыца',
-    img: '../assets/img/animals/chicken.jpg',
+    img: '../assets/img/animals/chicken.png',
     audio: '../assets/audio/chicken.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'dog',
     translation: 'сабака',
-    img: '../assets/img/animals/dog.jpg',
+    img: '../assets/img/animals/dog.png',
     audio: '../assets/audio/dog.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'dolphin',
     translation: 'дэльфiн',
-    img: '../assets/img/animals/dolphin.jpg',
+    img: '../assets/img/animals/dolphin.png',
     audio: '../assets/audio/dolphin.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'fish',
     translation: 'рыба',
-    img: '../assets/img/animals/fish1.jpg',
+    img: '../assets/img/animals/fish.png',
     audio: '../assets/audio/fish.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'frog',
     translation: 'жаба',
-    img: '../assets/img/animals/frog.jpg',
+    img: '../assets/img/animals/frog.png',
     audio: '../assets/audio/frog.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'horse',
     translation: 'конь',
-    img: '../assets/img/animals/horse.jpg',
+    img: '../assets/img/animals/horse.png',
     audio: '../assets/audio/horse.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'turtle',
     translation: 'чарапаха',
-    img: '../assets/img/animals/turtle.jpg',
+    img: '../assets/img/animals/turtle.png',
     audio: '../assets/audio/turtle.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   }
 ];
-export const animals2 = [
+export const animals2 = [ 
   {
     word: 'bird',
     translation: 'птушка',
-    img: '../assets/img/animals2/bird.jpg',
+    img: '../assets/img/animals2/bird.png',
     audio: '../assets/audio/bird.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'cow',
     translation: 'карова',
-    img: '../assets/img/animals2/cow.jpeg',
+    img: '../assets/img/animals2/cow.png',
     audio: '../assets/audio/cow.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'giraffe',
     translation: 'жырафа',
-    img: '../assets/img/animals2/giraffe.jpg',
+    img: '../assets/img/animals2/giraffe.png',
     audio: '../assets/audio/giraffe.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'lion',
     translation: 'леў',
-    img: '../assets/img/animals2/lion.jpg',
+    img: '../assets/img/animals2/lion.png',
     audio: '../assets/audio/lion.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'mouse',
     translation: 'мыш',
-    img: '../assets/img/animals2/mouse.jpg',
+    img: '../assets/img/animals2/mouse.png',
     audio: '../assets/audio/mouse.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'pig',
     translation: 'свіння',
-    img: '../assets/img/animals2/pig.jpg',
+    img: '../assets/img/animals2/pig.png',
     audio: '../assets/audio/pig.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'rabbit',
     translation: 'трус',
-    img: '../assets/img/animals2/rabbit.jpg',
+    img: '../assets/img/animals2/rabbit.png',
     audio: '../assets/audio/rabbit.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'sheep',
     translation: 'авечка',
-    img: '../assets/img/animals2/sheep.jpg',
+    img: '../assets/img/animals2/sheep.png',
     audio: '../assets/audio/sheep.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   }
 ];
 export const clothes = [
@@ -300,70 +300,70 @@ export const clothes = [
     mistakes: 0
   }
 ];
-export const digits = [
+export const digits = [ 
   {
     word: 'six',
     translation: 'шэсць',
     img: '../assets/img/digits/six.jpg',
     audio: '../assets/audio/six.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   },
   {
     word: 'two',
     translation: 'два',
-    img: '../assets/img/digits/two.jpg',
+    img: '../assets/img/digits/two.png',
     audio: '../assets/audio/two.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'eight',
     translation: 'восем',
-    img: '../assets/img/digits/eight.jpg',
+    img: '../assets/img/digits/eight.png',
     audio: '../assets/audio/eight.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'four',
     translation: 'чатыры',
-    img: '../assets/img/digits/four.jpg',
+    img: '../assets/img/digits/four.png',
     audio: '../assets/audio/four.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'seven',
     translation: 'сем',
-    img: '../assets/img/digits/seven.jpg',
+    img: '../assets/img/digits/seven.png',
     audio: '../assets/audio/seven.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'one',
     translation: 'адзiн',
-    img: '../assets/img/digits/one.jpg',
+    img: '../assets/img/digits/one.png',
     audio: '../assets/audio/one.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   },
   {
     word: 'five',
     translation: 'пяць',
-    img: '../assets/img/digits/five.jpg',
+    img: '../assets/img/digits/five.png',
     audio: '../assets/audio/five.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'three',
     translation: 'тры',
-    img: '../assets/img/digits/three.jpg',
+    img: '../assets/img/digits/three.png',
     audio: '../assets/audio/three.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   }
 ];
 export const food = [
@@ -432,136 +432,137 @@ export const food = [
     mistakes: 0
   }
 ];
-export const fruits = [
+export const fruits = [ 
   {
     word: 'apple',
     translation: 'яблык',
-    img: '../assets/img/fruits/apple.jpg',
+    img: '../assets/img/fruits/apple.png',
     audio: '../assets/audio/apple.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'banana',
     translation: 'банан',
-    img: '../assets/img/fruits/banana.jpg',
+    img: '../assets/img/fruits/banana.png',
     audio: '../assets/audio/banana.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'kiwi',
     translation: 'ківі',
-    img: '../assets/img/fruits/kiwi.jpeg',
+    img: '../assets/img/fruits/kiwi.png',
     audio: '../assets/audio/kiwi.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'mandarin',
     translation: 'мандарын',
-    img: '../assets/img/fruits/mandarin.jpg',
+    img: '../assets/img/fruits/mandarin.png',
     audio: '../assets/audio/mandarin.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'orange',
     translation: 'апельсін',
-    img: '../assets/img/fruits/orange.jpg',
+    img: '../assets/img/fruits/orange.png',
     audio: '../assets/audio/orange.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'pineapple',
     translation: 'ананас',
-    img: '../assets/img/fruits/pineapple.jpeg',
+    img: '../assets/img/fruits/pineapple.png',
     audio: '../assets/audio/pineapple.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'strawberry',
     translation: 'трускаўка',
-    img: '../assets/img/fruits/strawberry.jpeg',
+    img: '../assets/img/fruits/strawberry.png',
     audio: '../assets/audio/strawberry.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'watermelon',
     translation: 'кавун',
-    img: '../assets/img/fruits/watermelon.jpg',
+    img: '../assets/img/fruits/watermelon.png',
     audio: '../assets/audio/watermelon.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   }
 ];
-export const nature = [
+
+export const nature = [ 
   {
     word: 'fire',
     translation: 'агонь',
-    img: '../assets/img/nature/fire.jpg',
+    img: '../assets/img/nature/fire.png',
     audio: '../assets/audio/fire.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'forest',
     translation: 'лес',
-    img: '../assets/img/nature/forest.jpeg',
+    img: '../assets/img/nature/forest.png',
     audio: '../assets/audio/forest.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'grass',
     translation: 'трава',
-    img: '../assets/img/nature/grass.jpg',
+    img: '../assets/img/nature/grass.png',
     audio: '../assets/audio/grass.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'sand',
     translation: 'пясок',
-    img: '../assets/img/nature/sand.jpg',
+    img: '../assets/img/nature/sand.png',
     audio: '../assets/audio/sand.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'sky',
     translation: 'неба',
-    img: '../assets/img/nature/sky.jpg',
+    img: '../assets/img/nature/sky.png',
     audio: '../assets/audio/sky.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'snow',
     translation: 'снег',
-    img: '../assets/img/nature/snow.jpg',
+    img: '../assets/img/nature/snow.png',
     audio: '../assets/audio/snow.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'sunset',
     translation: 'захад',
-    img: '../assets/img/nature/sunset.jpg',
+    img: '../assets/img/nature/sunset.png',
     audio: '../assets/audio/sunset.mp3',
     correct: 0,
-    mistakes: 0
-  },
+    mistakes: 0,
+  }, 
   {
     word: 'water',
     translation: 'вада',
-    img: '../assets/img/nature/water.jpg',
+    img: '../assets/img/nature/water.png',
     audio: '../assets/audio/water.mp3',
     correct: 0,
-    mistakes: 0
+    mistakes: 0,
   }
 ];
 
