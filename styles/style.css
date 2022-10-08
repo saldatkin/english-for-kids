@@ -7,7 +7,6 @@ body, div, ul, li, img, button {
 body {
   width: 100vw;
   background-color: #f0eadc;
-  /* background-image: url(../assets/img/7088577_3509903.svg); */
   font-family: 'Original Surfer', cursive;
   overflow-x: hidden;
 }
