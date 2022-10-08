@@ -40,7 +40,7 @@ export const actions = [
   {
     word: 'cry',
     translation: 'плакаць',
-    img: '../assets/img/actions/cry.jpg',
+    img: '../assets/img/actions/cry.png',
     audio: '../assets/audio/cry.mp3',
     correct: 0,
     mistakes: 0
@@ -48,7 +48,7 @@ export const actions = [
   {
     word: 'dance',
     translation: 'танчыць',
-    img: '../assets/img/actions/dance.jpg',
+    img: '../assets/img/actions/dance.png',
     audio: '../assets/audio/dance.mp3',
     correct: 0,
     mistakes: 0
@@ -56,7 +56,7 @@ export const actions = [
   {
     word: 'dive',
     translation: 'ныраць',
-    img: '../assets/img/actions/dive.jpg',
+    img: '../assets/img/actions/dive.png',
     audio: '../assets/audio/dive.mp3',
     correct: 0,
     mistakes: 0
@@ -64,7 +64,7 @@ export const actions = [
   {
     word: 'draw',
     translation: 'маляваць',
-    img: '../assets/img/actions/draw.jpg',
+    img: '../assets/img/actions/draw.png',
     audio: '../assets/audio/draw.mp3',
     correct: 0,
     mistakes: 0
@@ -72,7 +72,7 @@ export const actions = [
   {
     word: 'fish',
     translation: 'рыбачыць',
-    img: '../assets/img/actions/fish.jpg',
+    img: '../assets/img/actions/fish.png',
     audio: '../assets/audio/fish.mp3',
     correct: 0,
     mistakes: 0
@@ -80,7 +80,7 @@ export const actions = [
   {
     word: 'fly',
     translation: 'лятаць',
-    img: '../assets/img/actions/fly.jpg',
+    img: '../assets/img/actions/fly.png',
     audio: '../assets/audio/fly.mp3',
     correct: 0,
     mistakes: 0
@@ -88,7 +88,7 @@ export const actions = [
   {
     word: 'hug',
     translation: 'абдымаць',
-    img: '../assets/img/actions/hug.jpg',
+    img: '../assets/img/actions/hug.png',
     audio: '../assets/audio/hug.mp3',
     correct: 0,
     mistakes: 0
@@ -96,7 +96,7 @@ export const actions = [
   {
     word: 'laugh',
     translation: 'смяяцца',
-    img: '../assets/img/actions/laugh.jpg',
+    img: '../assets/img/actions/laugh.png',
     audio: '../assets/audio/laugh.mp3',
     correct: 0,
     mistakes: 0
@@ -238,15 +238,15 @@ export const clothes = [
   {
     word: 'blouse',
     translation: 'блузка',
-    img: '../assets/img/clothes/blouse.jpg',
+    img: '../assets/img/clothes/blouse.png',
     audio: '../assets/audio/blouse.mp3',
     correct: 0,
     mistakes: 0
   },
   {
     word: 'boot',
-    translation: 'абутак',
-    img: '../assets/img/clothes/boot.jpg',
+    translation: 'чаравік',
+    img: '../assets/img/clothes/boot.png',
     audio: '../assets/audio/boot.mp3',
     correct: 0,
     mistakes: 0
@@ -254,7 +254,7 @@ export const clothes = [
   {
     word: 'coat',
     translation: 'паліто',
-    img: '../assets/img/clothes/coat.jpg',
+    img: '../assets/img/clothes/coat.png',
     audio: '../assets/audio/coat.mp3',
     correct: 0,
     mistakes: 0
@@ -262,7 +262,7 @@ export const clothes = [
   {
     word: 'dress',
     translation: 'сукенка',
-    img: '../assets/img/clothes/dress.jpg',
+    img: '../assets/img/clothes/dress.png',
     audio: '../assets/audio/dress.mp3',
     correct: 0,
     mistakes: 0
@@ -270,7 +270,7 @@ export const clothes = [
   {
     word: 'pants',
     translation: 'штаны',
-    img: '../assets/img/clothes/pants.jpg',
+    img: '../assets/img/clothes/pants.png',
     audio: '../assets/audio/pants.mp3',
     correct: 0,
     mistakes: 0
@@ -278,15 +278,15 @@ export const clothes = [
   {
     word: 'shirt',
     translation: 'кашуля',
-    img: '../assets/img/clothes/shirt.jpg',
+    img: '../assets/img/clothes/shirt.png',
     audio: '../assets/audio/shirt.mp3',
     correct: 0,
     mistakes: 0
   },
   {
     word: 'shoe',
-    translation: 'абутак',
-    img: '../assets/img/clothes/shoe.jpg',
+    translation: 'туфлі',
+    img: '../assets/img/clothes/shoe.png',
     audio: '../assets/audio/shoe.mp3',
     correct: 0,
     mistakes: 0
@@ -294,7 +294,7 @@ export const clothes = [
   {
     word: 'skirt',
     translation: 'спадніца',
-    img: '../assets/img/clothes/skirt.jpg',
+    img: '../assets/img/clothes/skirt.png',
     audio: '../assets/audio/skirt.mp3',
     correct: 0,
     mistakes: 0
@@ -304,7 +304,7 @@ export const digits = [
   {
     word: 'six',
     translation: 'шэсць',
-    img: '../assets/img/digits/six.jpg',
+    img: '../assets/img/digits/six.png',
     audio: '../assets/audio/six.mp3',
     correct: 0,
     mistakes: 0,
@@ -370,7 +370,7 @@ export const food = [
   {
     word: 'bread',
     translation: 'хлеб',
-    img: '../assets/img/food/bread.jpg',
+    img: '../assets/img/food/bread.png',
     audio: '../assets/audio/bread.mp3',
     correct: 0,
     mistakes: 0
@@ -378,7 +378,7 @@ export const food = [
   {
     word: 'eggs',
     translation: 'яйкi',
-    img: '../assets/img/food/eggs.jpg',
+    img: '../assets/img/food/eggs.png',
     audio: '../assets/audio/eggs.mp3',
     correct: 0,
     mistakes: 0
@@ -394,7 +394,7 @@ export const food = [
   {
     word: 'pizza',
     translation: 'пiца',
-    img: '../assets/img/food/pizza.jpg',
+    img: '../assets/img/food/pizza.png',
     audio: '../assets/audio/pizza.mp3',
     correct: 0,
     mistakes: 0
@@ -402,7 +402,7 @@ export const food = [
   {
     word: 'potato',
     translation: 'бульба',
-    img: '../assets/img/food/potato.jpg',
+    img: '../assets/img/food/potato.png',
     audio: '../assets/audio/potato.mp3',
     correct: 0,
     mistakes: 0
@@ -410,7 +410,7 @@ export const food = [
   {
     word: 'salad',
     translation: 'салата',
-    img: '../assets/img/food/salad.jpg',
+    img: '../assets/img/food/salad.png',
     audio: '../assets/audio/salad.mp3',
     correct: 0,
     mistakes: 0
@@ -418,7 +418,7 @@ export const food = [
   {
     word: 'sushi',
     translation: 'сушы',
-    img: '../assets/img/food/sushi.jpg',
+    img: '../assets/img/food/sushi.png',
     audio: '../assets/audio/sushi.mp3',
     correct: 0,
     mistakes: 0
@@ -426,7 +426,7 @@ export const food = [
   {
     word: 'vegetables',
     translation: 'гароднiна',
-    img: '../assets/img/food/vegetables.jpg',
+    img: '../assets/img/food/vegetables.png',
     audio: '../assets/audio/vegetables.mp3',
     correct: 0,
     mistakes: 0
