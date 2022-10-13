@@ -116,7 +116,7 @@ class EnglishForKids {
       captionEng.innerHTML = content.word;
 
       const translateImg = document.createElement('img');
-      captionEng.append(translateBtn);
+      //captionEng.append(translateBtn);
       translateBtn.append(translateImg);
       translateImg.classList.add('translate-img');
       translateImg.classList.add('arrow');
@@ -352,7 +352,6 @@ class EnglishForKids {
       for (let i = 0; i < divCaptionsEng.length; i++) {
         const element = divCaptionsEng[i];
         const captionFront = divCaptionsFront[i];
-
         if (!sidebar.includes(element.textContent)) {
           if (playCaption.classList.contains('hidden')) {
             captionFront.classList.remove('hidden');
