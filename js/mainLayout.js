@@ -32,13 +32,17 @@ export function createMainLayout() {
   main.append(mainContainer);
 
   navBurger = document.createElement('button');
-  headerTitle = document.createElement('h1');
+  headerTitle = document.createElement('a');
+  headerTitle.href = "/html/main.html";
+  const headerTitleCaption = document.createElement('h1');
   playToggle = document.createElement('button');
   navBurger.className = 'nav-burger';
-  headerTitle.classList.add('header-title');
+  headerTitleCaption.classList.add('header-title');
   playToggle.classList.add('play-toggle');
 
+
   headerContainer.append(navBurger, headerTitle, playToggle);
+  headerTitle.append(headerTitleCaption);
 
   rect1 = document.createElement('div');
   rect2 = document.createElement('div');
@@ -49,7 +53,7 @@ export function createMainLayout() {
 
   navBurger.append(rect1, rect2, rect3);
 
-  headerTitle.innerHTML = 'English for Kids';
+  headerTitleCaption.innerHTML = 'English for Kids';
 
   trainCaption = document.createElement('span');
   playCaption = document.createElement('span');

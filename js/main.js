@@ -38,6 +38,7 @@ class EnglishForKids {
     for (let i = 0; i < 8; i++) {
       const li = document.createElement('li');
       li.classList.add('item-div');
+      li.tabIndex = 0;
 
       const front = document.createElement('div');
       const back = document.createElement('div');
@@ -345,6 +346,11 @@ class EnglishForKids {
     playToggleBtn.addEventListener('click', () => {
       playCaption.classList.toggle('hidden');
       startPlayBtn.classList.toggle('unvisible');
+
+      if(startPlayBtn.classList.contains('unvisible')){
+        this.clearStars();
+      } 
+  
       trainCaption.classList.toggle('hidden');
       const divCaptionsEng = document.querySelectorAll('.div-caption-eng');
       const divCaptionsFront = document.querySelectorAll('.div-caption-front');

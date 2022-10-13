@@ -37,7 +37,7 @@ font-family: 'Original Surfer', cursive;
 
 
 .unvisible {
-visibility: hidden;
+  display: none;
 }
 
 
@@ -171,12 +171,15 @@ box-shadow: 0px 2px 0 0 rgb(18, 17, 16);
 position: relative;
 width: 48rem;
 color: #0E0B0B;
-text-align:end;
 font-size: 4.5rem;
 letter-spacing: 0.2rem;
 font-weight: bold;
+text-align:end;
 text-shadow: 4px 2px 0px #0082FA;
 background-color: transparent;
+}
+a {
+  text-decoration:none;
 }
 
 
@@ -464,7 +467,7 @@ box-shadow: 0.3rem 0.15rem 0 0 rgba(0, 130, 250, 0.9);
 color: transparent;
 background-image: url(../assets/img/repeat.png);
 background-size: 4.3rem;
-background-position: 0.7rem ;
+background-position: 50%;
 background-repeat: no-repeat;
 }
 
@@ -540,16 +543,46 @@ padding: 10px;
 text-align: center;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 901px) {
+@media screen and (max-width: 1400px) {
 html {
   font-size: 70%;
   overflow: scroll;
+  overflow-x: hidden;
 }
 body {
   background: url(../assets/img/bg-general.png) center;
 }
+.container{
+  width: 100rem;
+}
+.header-container{
+  justify-content: space-around;
+}
+.nav-burger{
+  width: 6rem;
+  height: 4rem;
+}
+.rectangle{
+  height: 0.9rem;
+}
+.header-title{
+  font-size: 5rem;
+}
+.header-title::before{
+  left: -2.6rem;
+}
+.play-toggle, .start-btn{
+  width: 8rem;
+  height: 3.5rem;
+  font-size: 2.5rem;
+}
+.nav-sidebar{
+  padding: 0 1rem 0 3rem;
+}
+.cross{
+  display: none;
+}
 .main-container {
-  width: 70rem;
   margin: 0 auto;
   user-select: none;
 }
@@ -558,7 +591,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 35rem;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .nav-sidebar .side-menu,
 .nav-sidebar .side-stats {
@@ -566,24 +599,45 @@ body {
 }
 .nav-sidebar .side-menu:hover,
 .nav-sidebar .side-stats:hover {
-  margin: 0;
-  padding-left: 0;
   font-size: 5rem;
   color: #fdcdd5;
   text-decoration: none;
 }
 .item-list {
-  padding-top: 4.5rem;
+  padding-top: 6rem;
   display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
 }
+.item-div{
+  height: 25rem;
+}
+.wide{
+  width: 95%;
+  height: 90%;
+}
+.div-caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-caption-eng::before{
+  top: 1rem;
+  left: 3.2rem;
+  width: 2.4rem;
+  height: 2.4rem;
+}
 .bottom-div {
-  grid-row-start: 4;
+  margin-top: 4rem;
+  grid-row-start: 3;
+}
+.star{
+  width: 4rem;
+  height: 4rem;
 }
 }
-@media screen and (max-width: 900px) and (min-width: 801px) {
+@media screen and (max-width: 800px) and (min-width: 701px) {
 html {
   font-size: 70%;
   overflow: scroll;
