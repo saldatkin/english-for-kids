@@ -122,14 +122,15 @@ class EnglishForKids {
       translateImg.classList.add('translate-img');
       translateImg.classList.add('arrow');
 
+
       if (current === menu) {
-        translateImg.classList.add('hidden');
+        translateBtn.classList.add('hidden');
         startPlayBtn.classList.add('hidden');
       }
 
       startPlayBtn.classList.remove('hidden');
       translateImg.alt = 'arrow.svg';
-      translateImg.src = '../assets/img/white_arrows.svg';
+      translateImg.src = '../assets/img/rotate_arrows.png';
     }
     this.addMouseClickEvents();
     this.addMouseLeaveEvents();
