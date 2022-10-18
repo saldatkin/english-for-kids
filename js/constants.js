@@ -426,7 +426,7 @@ export const food = [
   {
     word: 'vegetables',
     translation: 'гароднiна',
-    img: '../assets/img/food/vegetables.pngsetTi',
+    img: '../assets/img/food/vegetables.png',
     audio: '../assets/audio/vegetables.mp3',
     correct: 0,
     mistakes: 0

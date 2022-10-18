@@ -113,18 +113,17 @@ class EnglishForKids {
       imageBack.alt = `${content.word}.img`;
       imageBack.classList.add(`${content.word}-img`);
 
-      captionBY.innerHTML = content.translation;
-      captionEng.innerHTML = content.word;
+      captionBY.innerText = content.translation;
+      captionEng.innerText = content.word;
 
       const translateImg = document.createElement('img');
       //captionEng.append(translateBtn);
       translateBtn.append(translateImg);
-      translateImg.classList.add('translate-img');
-      translateImg.classList.add('arrow');
+      translateImg.classList.add('translate-img', 'arrow');
 
 
       if (current === menu) {
-        translateBtn.classList.add('hidden');
+        translateImg.classList.add('hidden');
         startPlayBtn.classList.add('hidden');
       }
 
@@ -132,8 +131,6 @@ class EnglishForKids {
       translateImg.alt = 'arrow.svg';
       translateImg.src = '../assets/img/rotate_arrows.png';
     }
-    this.addMouseClickEvents();
-    this.addMouseLeaveEvents();
   }
 
   findCurrentObject(array) {
@@ -249,10 +246,10 @@ class EnglishForKids {
 
     if (this.counterMistakesInGame > 0) {
       resultDiv.classList.add('result', 'failure');
-      loseCaption.innerHTML = `You have ${this.counterMistakesInGame} mistakes`;
+      loseCaption.innerText = `You have ${this.counterMistakesInGame} mistakes`;
       failureSound.play();
     } else {
-      loseCaption.innerHTML = '';
+      loseCaption.innerText = '';
       resultDiv.classList.add('result', 'win');
       successSound.play();
     }
@@ -282,7 +279,7 @@ class EnglishForKids {
     for (let i = 0; i < cellsInRowNumber; i++) {
       const tableHeading = document.createElement('th');
       statsTable.appendChild(tableHeading);
-      tableHeading.innerHTML = tableHeaders[i];
+      tableHeading.innerText = tableHeaders[i];
       if (i === 3 || i === 4 || i === 5) {
         tableHeading.setAttribute('data-type', 'number');
       }
@@ -334,8 +331,8 @@ class EnglishForKids {
     resetStatsBtn.classList.add('stat-btn', 'reset-btn');
     repeatDifficultBtn.classList.add('stat-btn', 'repeatdiff-btn');
 
-    resetStatsBtn.innerHTML = 'reset';
-    repeatDifficultBtn.innerHTML = 'repeat';
+    resetStatsBtn.innerText = 'reset';
+    repeatDifficultBtn.innerText = 'repeat';
 
     headerContainer.append(statsBtnsDiv);
   }
@@ -439,11 +436,11 @@ class EnglishForKids {
         this.clearStars();
         const activeItem = document.querySelector('.active-item');
 
-        if (document.querySelector('.item-list')) {
+       /* if (document.querySelector('.item-list')) {
           const ul2 = document.querySelector('.item-list');
           mainContainer.removeChild(ul2);
         }
-
+*/
         if (activeItem) {
           activeItem.classList.remove('active-item');
         }
@@ -460,7 +457,7 @@ class EnglishForKids {
         if (text === 'stats') {
           this.createStatsPage();
         } else {
-          this.createLayout();
+         // this.createLayout();
           this.makeContent(current);
         }
         navBurger.classList.remove('cross');
@@ -474,7 +471,6 @@ class EnglishForKids {
         const isTrainModeActive = document.querySelector('.play').classList.contains('hidden');
         const caption = element.querySelector('.div-caption');
         const textEng = caption.querySelector('.div-caption-eng').textContent;
-        let textBY;
         let current;
 
         if (caption.querySelector('.div-caption-by')) {
@@ -490,8 +486,6 @@ class EnglishForKids {
           audio.play();
         } else if (constantsArray.includes(current)) {
           if (this.current !== current) {
-            mainContainer.removeChild(ul2);
-            this.createLayout();
             this.makeContent(current);
             activeItem.classList.remove('active-item');
             document.querySelector(`.side-${textEng}`).classList.add('active-item');
@@ -524,3 +518,5 @@ class EnglishForKids {
 
 const englishForKids = new EnglishForKids();
 englishForKids.init();
+englishForKids.addMouseClickEvents();
+englishForKids.addMouseLeaveEvents();
