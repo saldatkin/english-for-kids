@@ -77,11 +77,15 @@ class EnglishForKids {
       const translateBtn = document.createElement("div");
       translateBtn.classList.add("translate-btn");
 
+      const translateImg = document.createElement('img');
+      translateImg.classList.add('translate-img');
+
       ul.append(li);
       li.append(front, back);
       front.append(itemImageFront, divCaptionFront);
       back.append(itemImageBack, divCaptionBack);
       divCaptionFront.append(divCaptionEng, translateBtn);
+      translateBtn.append(translateImg);
       divCaptionBack.append(divCaptionBY);
     }
   }
@@ -97,9 +101,14 @@ class EnglishForKids {
     const divCaptionEng = document.getElementsByClassName("div-caption-eng");
     const divCaptionBY = document.getElementsByClassName("div-caption-by");
 
-    const translateBtns = document.getElementsByClassName("translate-btn");
+    //const translateBtns = document.getElementsByClassName("translate-btn");
+    const translateImgs = document.getElementsByClassName("translate-img");
 
     const isPlayModeActive = trainCaption.classList.contains("hidden");
+
+
+    document.querySelector('.item-list').classList.remove('hidden');
+
 
     for (let i = 0; i < itemImagesFront.length; i++) {
       const content = this.current[i];
@@ -108,32 +117,31 @@ class EnglishForKids {
       const captionEng = divCaptionEng[i];
       const caption = divCaptions[i];
       const captionBY = divCaptionBY[i];
-      const translateBtn = translateBtns[i];
+      //const translateBtn = translateBtns[i];
+      const translateImg = translateImgs[i];
 
       if (isPlayModeActive && current !== menu) {
         this.clearStars();
         imageFront.classList.add("wide");
         caption.classList.add("hidden");
-      } else if (!isPlayModeActive && current !== menu) {
+      } else if (!isPlayModeActive || current === menu) {
         imageFront.classList.remove("wide");
         caption.classList.remove("hidden");
       }
 
       imageFront.src = `${content.img}`;
       imageFront.alt = `${content.word}.img`;
-      imageFront.classList.add(`${content.word}-img`);
 
       imageBack.src = `${content.img}`;
       imageBack.alt = `${content.word}.img`;
-      imageBack.classList.add(`${content.word}-img`);
 
       captionBY.innerText = content.translation;
       captionEng.innerText = content.word;
 
-      const translateImg = document.createElement("img");
-      //captionEng.append(translateBtn);
-      translateBtn.append(translateImg);
+      
       translateImg.classList.add("translate-img", "arrow");
+      translateImg.classList.remove('hidden');
+      
 
       if (current === menu) {
         translateImg.classList.add("hidden");
@@ -346,6 +354,9 @@ class EnglishForKids {
         }
       }
     }
+
+    document.querySelector('.item-list').classList.add('hidden');
+
     mainContainer.append(statsTable);
 
     const statsBtnsDiv = document.createElement("div");
@@ -372,6 +383,8 @@ class EnglishForKids {
     playToggleBtn.addEventListener("click", () => {
       playCaption.classList.toggle("hidden");
       startPlayBtn.classList.toggle("unvisible");
+      this.isStartPlayBtnActive = false;
+      
 
       if (startPlayBtn.classList.contains("unvisible")) {
         this.clearStars();
@@ -472,11 +485,11 @@ class EnglishForKids {
         this.clearStars();
         const activeItem = document.querySelector(".active-item");
 
-        /* if (document.querySelector('.item-list')) {
+        /*if (document.querySelector('.item-list')) {
           const ul2 = document.querySelector('.item-list');
           mainContainer.removeChild(ul2);
-        }
-*/
+        }*/
+
         if (activeItem) {
           activeItem.classList.remove("active-item");
         }
@@ -493,7 +506,7 @@ class EnglishForKids {
         if (text === "stats") {
           this.createStatsPage();
         } else {
-          // this.createLayout();
+          //this.createLayout();
           this.makeContent(current);
         }
         navBurger.classList.remove("cross");
