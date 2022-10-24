@@ -45,7 +45,9 @@ export function createMainLayout() {
 
   navBurger = document.createElement("button");
   headerTitle = document.createElement("a");
-  headerTitle.href = "/html/main.html";
+  headerTitle.href = "english-for-kids/html/main.html";
+  headerTitle.classList.add("header-link")
+
   const headerTitleCaption = document.createElement("h1");
   playToggle = document.createElement("button");
   navBurger.className = "nav-burger";
