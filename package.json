@@ -6,7 +6,8 @@
   "scripts": {
     "build": "./node_modules/.bin/webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint --fix"
+    "lint": "npx eslint --fix",
+    "cypress:open": "cypress open"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.3",
     "babel-loader": "^8.2.5",
+    "cypress": "^10.10.0",
     "eslint": "^8.24.0",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "2.7.1",
